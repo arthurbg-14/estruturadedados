@@ -135,15 +135,3 @@ class LinkedList:
             previous_node = current_node
             current_node = current_node.next
 
-
-my_list = LinkedList()
-print(my_list)
-
-my_list.append(1)
-my_list.append(2)
-my_list.append(3)
-
-my_list.insert_at_start("as")
-my_list.insert_at_index(0, "x")
-
-print(my_list)
